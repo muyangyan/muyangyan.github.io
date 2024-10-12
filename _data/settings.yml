@@ -1,6 +1,6 @@
 menu:
 - {name: 'publications', url: '/publications'}
-- {name: 'cv', url: '/cv'}
+- {name: 'blog', url: '/blog'}
 
 email: 'yan427 AT purdue.edu'
 
