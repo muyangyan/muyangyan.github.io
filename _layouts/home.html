@@ -3,22 +3,36 @@ layout: default
 ---
 
 <div class="row g-5 mb-5">
-  <div class="col-md-6">
+  <div class="col-md-8">
     <h3 class="fw-bold">Research</h3>
     {{ content }}
   </div>
-  <div class="col-md-6">
-    <img src="{{ site.github.url }}/assets/img/headshot.jpg" alt="Headshot" width="100%">
+  <div class="col-md-4">
+    <div class="my-2">
+        <img src="{{ site.github.url }}/assets/img/headshot.jpg" alt="Headshot" width="100%">
+    </div>
+    <div class="row">
+        <div class="col-md-8 my-1 offset-2">
+            {{ site.data.settings.email }}
+        </div>
+        <div class="col-md-8 my-1 offset-2 social-media-icons">
+        {% for item in site.data.settings.social %}
+            <a href="{{ item.link }}" class="ms-3 fs-5"><i class="fab fa-{{ item.icon }}"></i></a>
+        {% endfor %}
+        </div>
+    </div>
   </div>
 </div>
 
-{% include publications.html %}
-
 <div class="row g-5 mb-5">
   <div class="col-md-12">
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Updates</h3>
+    <h3 class="fw-bold border-bottom pb-3 mb-5">News</h3>
     {% for post in site.posts %}
       <p><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
     {% endfor %}
   </div>
 </div>
+
+
+{% include publications.html %}
+
