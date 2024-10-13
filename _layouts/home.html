@@ -4,7 +4,7 @@ layout: default
 
 <div class="row g-5 mb-5">
   <div class="col-md-8">
-    <h3 class="fw-bold">Research</h3>
+    <h3 class="fw-bold">Hi, I'm Mu</h3>
     {{ content }}
   </div>
   <div class="col-md-4">
@@ -12,7 +12,7 @@ layout: default
         <img src="{{ site.github.url }}/assets/img/headshot.jpg" alt="Headshot" width="100%">
     </div>
     <div class="row">
-        <div class="col-md-8 my-1 offset-2">
+        <div class="col-md-8 my-1 offset-2 text-center">
             {{ site.data.settings.email }}
         </div>
         <div class="col-md-8 my-1 offset-2 social-media-icons">
@@ -20,8 +20,8 @@ layout: default
             <a href="{{ item.link }}" class="ms-3 fs-5"><i class="fab fa-{{ item.icon }}"></i></a>
         {% endfor %}
         </div>
-        <div class="col-md-8 my-1 offset-2">
-            <a href="{{ site.github.url }}/assets/resume.pdf">Resume</a>
+        <div class="col-md-8 my-1 offset-2 text-center">
+            <a href="{{ site.github.url }}/assets/resume.pdf">Resume</a> <a href="{{ site.github.url }}/assets/resume.pdf">CV</a>
         </div>
     </div>
   </div>
@@ -37,5 +37,9 @@ layout: default
 </div>
 
 
+
+
+<!--
 {% include publications.html %}
+-->
 

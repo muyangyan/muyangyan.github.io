@@ -3,4 +3,4 @@ layout: home
 title: "Home"
 ---
 
-uhhh
+I'm a Junior in CS at Purdue University. 
