@@ -9,18 +9,22 @@ layout: default
   </div>
   <div class="col-md-4">
     <div class="my-2">
-        <img src="{{ site.github.url }}/assets/img/headshot.jpg" alt="Headshot" width="100%">
+        <img src="{{ site.github.url }}/assets/img/taiwan_headshot.jpg" alt="Headshot" width="100%">
     </div>
     <div class="row">
-        <div class="col-md-8 my-1 offset-2 text-center">
+        <div class="col text-center">
             {{ site.data.settings.email }}
         </div>
-        <div class="col-md-8 my-1 offset-2 social-media-icons">
+    </div>
+    <div class="row">
+        <div class="col text-center">
         {% for item in site.data.settings.social %}
             <a href="{{ item.link }}" class="ms-3 fs-5"><i class="fab fa-{{ item.icon }}"></i></a>
         {% endfor %}
         </div>
-        <div class="col-md-8 my-1 offset-2 text-center">
+    </div>
+    <div class="row">
+        <div class="col text-center">
             <a href="{{ site.github.url }}/assets/resume.pdf">Resume</a> <a href="{{ site.github.url }}/assets/resume.pdf">CV</a>
         </div>
     </div>
