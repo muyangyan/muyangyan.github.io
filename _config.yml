@@ -26,10 +26,6 @@ sections:
   - title: "Research"
     show_posts: true
     post_category: research
-  - title: "Projects"
-    show_posts: true
-    post_category: projects
-
 
 #
 # Flags below are optional
