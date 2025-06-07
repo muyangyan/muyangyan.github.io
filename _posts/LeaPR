@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Neuro-Symbolic Action Anticipation from a Single Image with Learned Probabilistic Rules"
+date:   3/2/2025
+image: /images/LeaPR.png
+categories: research
+author: "Muyang Yan"
+authors: "<strong>Muyang Yan</strong>, Maxwell Jacobson, Nan Jiang, Yaqi Xie, Simon Stepputtis, Katia Sycara, Yexiang Xue"
+---
+Learning probabilistic action preconditions from data through ILP to anticipate future human actions from single images. Under review at IROS25
