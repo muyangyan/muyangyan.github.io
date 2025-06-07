@@ -26,11 +26,11 @@ sections:
   - title: "Research"
     description: "I'm interested in Neuro-symbolic AI for robotics."
     show_posts: true
-    post_category: "research"
+    post_category: research
   - title: "Projects"
     description: "I'm interested in Neuro-symbolic AI for robotics."
     show_posts: true
-    post_category: "research"
+    post_category: projects
 
 
 #
