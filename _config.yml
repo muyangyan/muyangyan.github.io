@@ -28,7 +28,7 @@ sections:
     show_posts: true
     post_category: research
   - title: "Projects"
-    description: "I'm interested in Neuro-symbolic AI for robotics."
+    description: "Some things I've worked on"
     show_posts: true
     post_category: projects
 
