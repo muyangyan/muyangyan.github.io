@@ -24,11 +24,9 @@ social_links:
 # Sections configuration
 sections:
   - title: "Research"
-    description: "I'm interested in Neuro-symbolic AI for robotics."
     show_posts: true
     post_category: research
   - title: "Projects"
-    description: "Some things I've worked on"
     show_posts: true
     post_category: projects
 
@@ -52,7 +50,7 @@ url: "https://muyangyan.com" # the base hostname & protocol for your site
 #
 
 #permalink: /:title/
-permalink: /:title/
+permalink: /
 
 
 # The release of Jekyll Now that you're using
