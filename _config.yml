@@ -52,7 +52,7 @@ url: "https://muyangyan.com" # the base hostname & protocol for your site
 #
 
 #permalink: /:title/
-permalink: /
+permalink: /:title/
 
 
 # The release of Jekyll Now that you're using
